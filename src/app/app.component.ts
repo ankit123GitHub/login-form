@@ -59,7 +59,7 @@ ngOnInit() {
       'submitdata',
       JSON.stringify(this.loginForm.value)
     );
-    this.showStorage = localStorage.getItem('submitdata');
-    console.warn('Sign in Successfully work');
+    // this.showStorage = localStorage.getItem('submitdata');
+    // console.warn('Sign in Successfully work');
   }
 }
